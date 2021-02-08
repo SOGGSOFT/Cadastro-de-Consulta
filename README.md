@@ -159,8 +159,8 @@ Será retornado o código da nova pesquisa gerada, é necessário armarzena-lo p
 HTTP CODE `201` 
 ```json
 {
-  "codigo": "204",
-  "message": "success"
+   "codigo":"afe6ca1d-f6e2-465f-849c-d93108d428f4",
+   "message":"success"
 }
 ```
 
@@ -176,11 +176,11 @@ Response:
 ```json
 {
    "pesquisa":{
-      "id":"259",
-      "protocolo":"2909.1601403938/2020",
+      "id":"fb1e0238-fff1-4d8e-b012-98c6f708c99d",
+      "protocolo":"0802.1612818859/2021",
       "status":"HOMOLOGADO",
       "pesquisa_avancada":"N",
-      "validade":"2020-09-30",
+      "validade":"2021-02-09",
       "categoria":"COMBO",
       "motorista":{
          "status":"HOMOLOGADO",
@@ -204,7 +204,8 @@ Response:
          "contato_celular":"66999999999",
          "contato_email":"CONTATO@SOGGSOFT.COM.BR",
          "anexos":[
-            "https://localhost/files/analise_perfil/api/combo/5-5f737adb304c5.png"
+            "https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/1-6021a571c59a6.png",
+            "https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/1-6021a571c4314.png"
          ]
       },
       "proprietarios":[
@@ -219,18 +220,8 @@ Response:
             "contato_email":"email@motorista.com.br",
             "contato_celular":"066 9 9695-4545",
             "contato_telefone":"066 3421-5485",
-            "anexo":"https://localhost/files/analise_perfil/api/combo/5-5f737adb32e9c.png",
+            "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/1-6021a571c898e.png",
             "veiculos":[
-               {
-                  "perfil_id":"1",
-                  "renavam":"999999999",
-                  "placa":"CCC1234",
-                  "chassi":"2222222222",
-                  "antt":"8888888",
-                  "uf":"MT",
-                  "categoria":"COMBO",
-                  "anexo":"https://localhost/files/analise_perfil/api/combo/592-5f737adb36f2d.png"
-               },
                {
                   "perfil_id":"1",
                   "renavam":"8888888888",
@@ -239,7 +230,17 @@ Response:
                   "antt":"8888888",
                   "uf":"MT",
                   "categoria":"COMBO",
-                  "anexo":"https://localhost/files/analise_perfil/api/combo/593-5f737adb39ec7.png"
+                  "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/1d341635-aced-49e3-9ca1-2fcce8327e19-6021a571d01ad.png"
+               },
+               {
+                  "perfil_id":"1",
+                  "renavam":"999999999",
+                  "placa":"CCC1234",
+                  "chassi":"2222222222",
+                  "antt":"8888888",
+                  "uf":"MT",
+                  "categoria":"COMBO",
+                  "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/50403061-1e8a-4590-8bd0-5b1b670fbe8c-6021a571cc3b0.png"
                }
             ]
          },
@@ -254,18 +255,8 @@ Response:
             "contato_email":"email@motorista.com.br",
             "contato_celular":"066 9 9695-4545",
             "contato_telefone":"066 3421-5485",
-            "anexo":"https://localhost/files/analise_perfil/api/combo/5-5f737adb3c37e.png",
+            "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/1-6021a571d36f5.png",
             "veiculos":[
-               {
-                  "perfil_id":"1",
-                  "renavam":"999999999",
-                  "placa":"YYY8989",
-                  "chassi":"2222222222",
-                  "antt":"8888888",
-                  "uf":"MT",
-                  "categoria":"COMBO",
-                  "anexo":"https://localhost/files/analise_perfil/api/combo/595-5f737adb3ee13.png"
-               },
                {
                   "perfil_id":"1",
                   "renavam":"8888888888",
@@ -274,7 +265,17 @@ Response:
                   "antt":"8888888",
                   "uf":"MT",
                   "categoria":"COMBO",
-                  "anexo":"https://localhost/files/analise_perfil/api/combo/596-5f737adb4193e.png"
+                  "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/2b223ce5-7a43-45bf-a9d1-b1b9b8ffab1f-6021a571daeb9.png"
+               },
+               {
+                  "perfil_id":"1",
+                  "renavam":"999999999",
+                  "placa":"YYY8989",
+                  "chassi":"2222222222",
+                  "antt":"8888888",
+                  "uf":"MT",
+                  "categoria":"COMBO",
+                  "anexo":"https://dev-app.soggsoft.com.br/files/analise_perfil/api/combo/fe2dc4af-d62b-4cf1-ab7c-bc1a9e0324c3-6021a571d757a.png"
                }
             ]
          }
